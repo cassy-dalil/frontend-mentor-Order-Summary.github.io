@@ -16,7 +16,7 @@ The designs were created to the following widths:
 - Weights: 500, 700, 900 */
 
 body {
-    font-family: 'Red Hat Display';
+    font-family: 'Red Hat Display', sans-serif;
     background-color: var(--pale-blue);
     background-image: url('./images/pattern-background-mobile.svg');
     background-position: center;
@@ -73,6 +73,13 @@ body {
     background-size: cover;
 }
 
+h2 {
+    font-weight: bold;
+    color: var(--dark-blue);
+}
 
+.order-summary p{
+    color: var(--desaturated-blue);
+}
 
 /* SEE HOVER STATES FOR INTERACTIVE ELEMENTS */
