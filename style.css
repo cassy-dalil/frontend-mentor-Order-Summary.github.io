@@ -80,6 +80,7 @@ h2 {
 
 .order-summary p {
     color: var(--desaturated-blue);
+    font-size: 16px;
 }
 
 .annual-plan-section {
@@ -95,6 +96,7 @@ h2 {
 
 #annual-plan-text {
     color: var(--dark-blue);
+    font-size: 14px;
     font-weight: bold;
     margin: 10px 5px 2px 5px;
 }
@@ -102,6 +104,10 @@ h2 {
 #annual-plan-price {
     color: var(--desaturated-blue);
     margin: 2px 5px 10px 5px;
+}
+
+#change {
+    font-size: 14px;
 }
 
 #change:hover {
@@ -122,6 +128,8 @@ h2 {
     border-radius: 10px;
     background-color: var(--bright-blue);
     color: white;
+    font-size: 15px;
+    font-weight: bold;
     margin: 10px;
 }
 
@@ -133,6 +141,7 @@ h2 {
     text-decoration: none;
     color: var(--desaturated-blue);
     font-weight: bold;
+    font-size: 15px;
     margin: 10px;
 }
 
