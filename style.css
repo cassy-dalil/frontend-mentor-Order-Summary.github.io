@@ -54,7 +54,7 @@ body {
 /* MAIN CONTAINER */
 
 .main-container {
-    height: 500px;
+    height: 550px;
     width: 350px;
     border-radius: 10px;
     background-color: white;
@@ -104,6 +104,40 @@ h2 {
     margin: 2px 5px 10px 5px;
 }
 
+#change:hover {
+    cursor: pointer;
+}
 
+.payment-cancel-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#proceed-button {
+    height: 50px;
+    width: 300px;
+    border: none;
+    border-radius: 10px;
+    background-color: var(--bright-blue);
+    color: white;
+    margin: 10px;
+}
+
+#proceed-button:hover {
+    cursor: pointer;
+}
+
+#cancel {
+    text-decoration: none;
+    color: var(--desaturated-blue);
+    font-weight: bold;
+    margin: 10px;
+}
+
+#cancel:hover {
+    cursor: pointer;
+}
 
 /* SEE HOVER STATES FOR INTERACTIVE ELEMENTS */
