@@ -17,6 +17,18 @@ The designs were created to the following widths:
 
 body {
     font-family: 'Red Hat Display';
+    background-color: var(--pale-blue);
+    background-image: url('./images/pattern-background-mobile.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media (min-width: 800px) {
+    body {
+        background-image: url('./images/pattern-background-desktop.svg');
+        
+    }
 }
 
 /* COLORS */
@@ -36,5 +48,31 @@ body {
 .attribution a { 
     color: hsl(228, 45%, 44%); 
 }
+
+
+
+/* MAIN CONTAINER */
+
+.main-container {
+    height: 500px;
+    width: 350px;
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.fun-image {
+    height: 175px;
+    width: 350px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-image: url('./images/illustration-hero.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
 
 /* SEE HOVER STATES FOR INTERACTIVE ELEMENTS */
