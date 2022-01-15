@@ -59,7 +59,7 @@ body {
     border-radius: 10px;
     background-color: white;
     text-align: center;
-    margin: 20px auto;
+    margin: 50px auto;
 }
 
 .fun-image {
@@ -78,8 +78,32 @@ h2 {
     color: var(--dark-blue);
 }
 
-.order-summary p{
+.order-summary p {
     color: var(--desaturated-blue);
 }
+
+.annual-plan-section {
+    height: 75px;
+    width: 300px;
+    background-color: var(--very-pale-blue);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 10px auto;
+}
+
+#annual-plan-text {
+    color: var(--dark-blue);
+    font-weight: bold;
+    margin: 10px 5px 2px 5px;
+}
+
+#annual-plan-price {
+    color: var(--desaturated-blue);
+    margin: 2px 5px 10px 5px;
+}
+
+
 
 /* SEE HOVER STATES FOR INTERACTIVE ELEMENTS */
